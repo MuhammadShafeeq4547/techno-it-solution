@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .main{
+            width: 100%;
+            height: 60px;
+            border: 2px solid red;
+        }
+        .logo{
+            width: 100px;
+            height: 100%;
+            background-color: aqua;
+            display: inline-block;
+        }
+        .main ul{
+            display: inline-block;
+            border: 2px solid red;
+            width: 500px;
+            vertical-align: top;
+            margin-left: 200px;
+        }
+
+        .main ul li{
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        .main p{
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 100px;
+        }
+        .logo, .ul, .para {
+            /* color: blue; */
+            /* background-color: green; */
+        }
+
+        /* .main > p{
+            color: green;
+            background-color: red;
+        }
+
+        .logo:hover ~ .para{
+            background-color: black;
+        }
+
+        .logo:hover + ul{
+            background-color: pink;
+
+
+        } */
+        /* .main > p{
+            color: yellow;
+            font-size: 20px;
+        } */
+        /* .logo:hover + ul{
+            color: red;
+        } */
+        /* .logo:hover ~ .para{
+            background-color: yellow;
+            color: red;
+        } */
+        .para:hover ~ .logo{
+            background-color: red;
+            color: white;
+        }
+        
+
+
+
+
+
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="logo">logo</div>
+        <ul class="ul">
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+        </ul>
+        <p class="para">hello hafiz g</p>
+    </div>
+
+    <!-- selectors can be categorised into 5 types  -->
+
+    <!-- 1- simple selectors -->
+            
+    <!-- universal selector (*) -->
+    <!-- id selector        (#)  -->
+    <!-- class slector      (.) -->
+    <!-- element selector   (div, p, input ,  button) -->
+    <!-- grouping selector   (more than one element) -->
+
+    <!-- ///////////////////////////// -->
+
+    
+    <!-- 2- Combinators Selectors  -- -->
+    <!--used to explain for relation between elements -->
+
+    <!-- descendent or space selector     (space) -->
+    <!-- direct child                     ( > ) -->
+    <!-- general sibling                  (~) -->
+    <!-- adjacent sibling or next sibling (+) -->
+
+    <!-- 3 pseudo class selectors (:hover) --> 
+    <!-- 4 pseudo element selectors (::)-->
+     <!--5 Attributes selectors  -->
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
